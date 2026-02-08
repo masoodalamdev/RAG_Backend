@@ -1,0 +1,21 @@
+# Physical AI & Humanoid Robotics - Introduction
+
+Physical AI represents a paradigm shift in artificial intelligence, moving beyond abstract computation toward embodied cognition. This field explores how AI systems can develop understanding through physical interaction with the world, similar to how humans learn through sensory experience and motor control.
+
+## Key Concepts
+
+- Embodied Cognition: Intelligence emerges from the interaction between mind, body, and environment
+- Sensorimotor Learning: Learning through sensing and acting in physical spaces
+- Humanoid Robotics: Creating robots with human-like form and capabilities
+- Physical Grounding: Connecting abstract concepts to physical experiences
+
+## Module Overview
+
+This textbook covers four main modules:
+
+1. ROS 2 Fundamentals - Robot Operating System for controlling robotic platforms
+2. Digital Twin Technology - Virtual replicas of physical systems
+3. Isaac Sim - NVIDIA's robotics simulation platform
+4. Vision-Language-Action Models - Integrating perception, reasoning, and action
+
+The integration of these technologies enables the development of sophisticated humanoid robots capable of performing complex tasks in real-world environments.
