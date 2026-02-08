@@ -1,3 +1,26 @@
+[project]
+name = "rag-chatbot-backend"
+version = "0.1.0"
+description = "Backend for the RAG Chatbot integrated into published books"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+dependencies = [
+    "fastapi>=0.104.1,<0.105.0",
+    "uvicorn[standard]>=0.24.0,<0.25.0",
+    "cohere>=4.9.0,<5.0.0",
+    "qdrant-client>=1.7.0,<2.0.0",
+    "asyncpg>=0.29.0,<0.30.0",
+    "sqlalchemy>=2.0.23,<3.0.0",
+    "pydantic>=2.5.0,<3.0.0",
+    "pydantic-settings>=2.1.0,<3.0.0",
+    "python-dotenv>=1.0.0,<2.0.0",
+    "python-multipart>=0.0.6,<0.1.0",
+    "better-auth>=1.0.0,<2.0.0",
+    "psycopg[binary,pool]>=3.1.0,<4.0.0",
+    "slowapi>=0.1.9,<0.2.0",
+]
+
 [tool.poetry]
 name = "rag-chatbot-backend"
 version = "0.1.0"
@@ -27,8 +50,8 @@ black = "^23.11.0"
 flake8 = "^6.1.0"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [tool.black]
 line-length = 88
