@@ -5,6 +5,7 @@ description = "Backend for the RAG Chatbot integrated into published books"
 authors = [
     {name = "Your Name", email = "your.email@example.com"},
 ]
+requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.104.1,<0.105.0",
     "uvicorn[standard]>=0.24.0,<0.25.0",
@@ -16,7 +17,7 @@ dependencies = [
     "pydantic-settings>=2.1.0,<3.0.0",
     "python-dotenv>=1.0.0,<2.0.0",
     "python-multipart>=0.0.6,<0.1.0",
-    "better-auth>=1.0.0,<2.0.0",
+    "better-auth>=0.0.1b11,<0.1.0",
     "psycopg[binary,pool]>=3.1.0,<4.0.0",
     "slowapi>=0.1.9,<0.2.0",
 ]
@@ -39,7 +40,7 @@ pydantic = "^2.5.0"
 pydantic-settings = "^2.1.0"
 python-dotenv = "^1.0.0"
 python-multipart = "^0.0.6"
-better-auth = "^1.0.0"
+better-auth = "^0.0.1b11"
 psycopg = {extras = ["binary", "pool"], version = "^3.1.0"}
 slowapi = "^0.1.9"
 
